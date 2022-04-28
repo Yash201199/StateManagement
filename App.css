@@ -1,0 +1,96 @@
+
+.navlink{
+    width: 5.5rem;
+    height: fit-content;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgb(16, 16, 151);
+    cursor: pointer;
+    align-items: flex-end;
+}
+/* .display-1{
+    color: rgb(13, 24, 18);
+} */
+
+
+.navname{
+    
+    color: rgb(13, 24, 18);
+}
+.homepage{
+    color: rgb(38, 213, 219);
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    border-bottom: rgb(207, 53, 53);
+}
+/* ////login form css */
+.loginform {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-top: 90px;
+   
+    
+ }
+ .loginform input{
+    border: none;
+    border-bottom: 1px solid blue;
+    margin-bottom: 1rem;
+    outline: none;
+ }
+
+ .loginform button{
+    width: 5.5rem;
+    height: fit-content;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid blue;
+    cursor: pointer;
+    align-items: center;
+ }
+ .loginform button:hover{
+    background-color: blue;
+    color: #ffff;
+}
+
+/* register css */
+
+
+.register {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+ }
+ 
+ .register input{
+     border: none;
+     border-bottom: 1px solid blue;
+     margin-bottom: 1rem;
+     outline: none;
+ }
+ 
+ .register button{
+     width: 5.5rem;
+     height: fit-content;
+     padding: 10px;
+     background-color: transparent;
+     outline: none;
+     border: 1px solid rgb(16, 16, 151);
+     cursor: pointer;
+     align-items: flex-end;
+     
+ }
+ 
+ .register button:hover{
+     background-color: blue;
+     color: #ffff;
+ }
